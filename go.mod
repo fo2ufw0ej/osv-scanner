@@ -48,3 +48,6 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240116215550-a9fa1716bcac // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
+
+// Personal fork - bumping go version to 1.22 for range-over-integer experiment
+// See: https://tip.golang.org/doc/go1.22
