@@ -1,6 +1,6 @@
 module github.com/google/osv-scanner
 
-go 1.21
+go 1.22
 
 require (
 	github.com/BurntSushi/toml v1.3.2
@@ -49,5 +49,7 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
 
-// Personal fork - bumping go version to 1.22 for range-over-integer experiment
+// Personal fork - bumped go directive to 1.22 to use range-over-integer feature
 // See: https://tip.golang.org/doc/go1.22
+// Also experimenting with the new loop variable semantics fix (each iteration
+// gets its own variable, no more accidental closure captures over loop vars).
